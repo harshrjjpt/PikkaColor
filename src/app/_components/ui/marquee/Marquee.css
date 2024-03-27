@@ -1,0 +1,29 @@
+.main-marquee-container{
+    position: relative;
+}
+.marquee-container {
+  display: flex;
+  column-gap: 100px;
+}
+
+.icon-container {
+  width: 100px;
+  height: auto;
+  margin: 40px 30px 0px;
+}
+.icon {
+  font-size: 80px;
+}
+.shadow-container {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+}
+.shadow {
+    width: 100%;
+    height: 290px;
+    z-index: 100;
+    background: linear-gradient(90deg,rgb(3, 0, 12) -9.17%,rgba(255, 255, 255, 0) 50.72%,rgb(3, 0, 12) 109.64%);
+}
